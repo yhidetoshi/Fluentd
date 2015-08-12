@@ -1,0 +1,22 @@
+<source>
+  type forward
+  port 24224
+</source>
+
+<match test.access>
+ type copy
+  <store>
+    type s3
+    aws_key_id XXXXXXXXXXXXXXXXX
+    aws_sec_key YYYYYYYYYYYYYYYYYYY
+    s3_bucket test
+    check_apikey_on_start false
+    s3_endpoint riak1-dc1
+    proxy_uri http://riak1-dc1:8080
+    use_ssl false
+    path logs99/
+    buffer_path /var/log/fluent/s3
+    time_slice_format %Y%m%d-%H
+    flush_interval 5s
+     utc
+  </store>
