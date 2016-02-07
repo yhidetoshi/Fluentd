@@ -11,3 +11,6 @@
 
 - AWS S3へバケット送信
   - https://github.com/yhidetoshi/fluentd/blob/master/td-agent.conf_toS3
+
+- td-agentの環境変数の変更
+  - https://github.com/yhidetoshi/fluentd/blob/master/change-td-agent-env.conf 
