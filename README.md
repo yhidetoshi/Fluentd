@@ -1,3 +1,6 @@
+
+![Alt Text](https://github.com/yhidetoshi/Pictures/raw/master/Fluentd/fluentd-logo.png)
+
 # Fluentdでやった事
 
 - インストール
