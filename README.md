@@ -12,7 +12,7 @@
 - 冗長構成
   - https://github.com/yhidetoshi/fluentd/blob/master/td-agent.conf_redundant
 
-- AWS S3へバケット送信
+- AWS S3へデータ転送
   - https://github.com/yhidetoshi/fluentd/blob/master/td-agent.conf_toS3
 
 - td-agentの環境変数の変更
