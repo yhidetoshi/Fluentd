@@ -20,3 +20,4 @@
     flush_interval 5s
      utc
   </store>
+</match>
