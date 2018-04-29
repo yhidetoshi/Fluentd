@@ -1,5 +1,3 @@
-![Alt Text](https://github.com/yhidetoshi/Pictures/raw/master/Fluentd/fluentd-riak-icon.png)
-
 # Fluentdでやった事
 
 - インストール
